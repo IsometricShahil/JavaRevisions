@@ -7,7 +7,7 @@ public class Strings {
         System.out.println(s.toUpperCase());
         System.out.println();
 
-        System.out.println(s.equals("Let there be a string!"));
+        System.out.println(s.equals("Let there be a string!")); //NEVER use == with strings
         System.out.println(s.equals(s.toLowerCase()));
         System.out.println(s.equalsIgnoreCase(s.toLowerCase()));
         System.out.println();

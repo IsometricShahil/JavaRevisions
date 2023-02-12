@@ -12,6 +12,7 @@ public class Varargs {
         System.out.println("The rest: " + Arrays.toString(c));
     }
     public static void main(String[] args) {
+        f();
         f(1, 3, 5, 7, 9);
         System.out.println();
         g(56, 'Z', 9, 8, 7, 6, 5, 4, 3, 2, 1, 0);

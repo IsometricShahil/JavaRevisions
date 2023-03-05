@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Array {
     public static void main(String[] args) {
-        // Similar to Strings, use equals() for arrays, not ==
+        // As with Strings, use equals() with arrays, not ==
         int[] a = new int[10];
         System.out.println(a.length);
 
